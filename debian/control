@@ -1,0 +1,12 @@
+Source: ros-rolling-rqt-gui-cpp
+Section: misc
+Priority: optional
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-rolling-ament-cmake, ros-rolling-pluginlib, ros-rolling-qt-gui-cpp (>= 0.3.0), ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: http://ros.org/wiki/rqt_gui_cpp
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-gui-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-pluginlib, ros-rolling-qt-gui-cpp (>= 0.3.0), ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: rqt_gui_cpp enables GUI plugins to use the C++ client library for ROS.
