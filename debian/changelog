@@ -1,0 +1,192 @@
+ros-rolling-rqt-gui (1.5.0-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 26 Dec 2023 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.4.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 07 Jun 2023 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.4.0-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 28 Apr 2023 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.3.2-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 11 Apr 2023 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.3.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 24 Feb 2023 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.3.0-2noble) noble; urgency=high
+
+  * [rolling] Update maintainers - 2022-11-07 (#283 <https://github.com/ros-visualization/rqt/issues/283>)
+  * Contributors: Audrow Nash, Dharini Dutia, quarkytale
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 14 Feb 2023 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.2.0-2noble) noble; urgency=high
+
+  * Display basic help information when no plugins are loaded (#268 <https://github.com/ros-visualization/rqt/issues/268>)
+  * Contributors: Michael Jeronimo
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 10 May 2022 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.1.3-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 05 Apr 2022 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.1.2-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 31 Aug 2021 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.1.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 12 Apr 2021 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.1.0-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 07 Apr 2021 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.0.7-2noble) noble; urgency=high
+
+  * getiterator() renamed to iter() in Python 3.9 (#239 <https://github.com/ros-visualization/rqt/issues/239>)
+  * Contributors: goekce
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 05 Feb 2021 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.0.6-2noble) noble; urgency=high
+
+  * allow definition of settings file (#216 <https://github.com/ros-visualization/rqt/issues/216>)
+  * Contributors: Alexander Gutenkunst
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 05 May 2020 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.0.5-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 30 Sep 2019 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.0.2-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 04 Feb 2019 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.0.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 12 Dec 2018 00:00:00 -0000
+
+ros-rolling-rqt-gui (1.0.0-2noble) noble; urgency=high
+
+  * change to ament_python build type (#169 <https://github.com/ros-visualization/rqt/issues/169>) (#170 <https://github.com/ros-visualization/rqt/issues/170>)
+  * fix style to pass lint tests (#172 <https://github.com/ros-visualization/rqt/issues/172>)
+  * port rqt_gui_cpp to ROS 2 (#163 <https://github.com/ros-visualization/rqt/issues/163>)
+  * add subclass of plugin_context to pass around the rqt node (#161 <https://github.com/ros-visualization/rqt/issues/161>)
+  * remove pytests in favor of ament_lint_auto, moving rqt_gui resource to package specific destination (#153 <https://github.com/ros-visualization/rqt/issues/153>)
+  * fix installation of rqt_gui executable (#152 <https://github.com/ros-visualization/rqt/issues/152>)
+  * add tests to rqt_gui_py (#150 <https://github.com/ros-visualization/rqt/issues/150>)
+  * port rqt_gui to ROS 2 (#142 <https://github.com/ros-visualization/rqt/issues/142>)
+  * style changes (#143 <https://github.com/ros-visualization/rqt/issues/143>)
+  * autopep8 (#137 <https://github.com/ros-visualization/rqt/issues/137>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 11 Dec 2018 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.5.0-2noble) noble; urgency=high
+
+  * version bump to match version of migrated package rqt_py_common
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 24 Apr 2017 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.3.2-2noble) noble; urgency=high
+
+  * use Python 3 compatible syntax (#113 <https://github.com/ros-visualization/rqt/pull/113>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 24 Jan 2017 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.3.1-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 01 Apr 2016 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.3.0-2noble) noble; urgency=high
+
+  * switch to Qt5 (#106 <https://github.com/ros-visualization/rqt/pull/106>)
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 01 Apr 2016 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.14-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 04 Mar 2014 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.13-2noble) noble; urgency=high
+
+  * added hash of ros package path as prefix for plugin manager settings to allow for one cache per package path setting
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 08 Jan 2014 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.12-2noble) noble; urgency=high
+
+  * improve startup time (#88 <https://github.com/ros-visualization/rqt/issues/88>)
+  * new icon for rqt
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 09 Oct 2013 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.11-2noble) noble; urgency=high
+
+
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 06 Sep 2013 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.10-2noble) noble; urgency=high
+
+  * add application icon (#82 <https://github.com/ros-visualization/rqt/issues/82>)
+  * improve error message when plugin xml file does not exist
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Wed, 21 Aug 2013 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.9-2noble) noble; urgency=high
+
+  * make plugin resources relative to plugin.xml (ros-visualization/qt_gui_core#16 <https://github.com/ros-visualization/qt_gui_core/issues/16>)
+  * use standard rospy function to filter remapping arguments (#76 <https://github.com/ros-visualization/rqt/issues/76>)
+  * fix help provider
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Thu, 06 Jun 2013 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.8-2noble) noble; urgency=high
+
+  * properly ignore ROS remapping arguments when passed in via command line
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Fri, 11 Jan 2013 00:00:00 -0000
+
+ros-rolling-rqt-gui (0.2.7-2noble) noble; urgency=high
+
+  * first public release for Groovy
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Mon, 31 Dec 2012 00:00:00 -0000
+
+
