@@ -1,0 +1,13 @@
+Source: ros-rolling-rqt-py-common
+Section: misc
+Priority: optional
+Maintainer: Dharini Dutia <dharini@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-rolling-ament-cmake, ros-rolling-ament-cmake-pytest <!nocheck>, ros-rolling-python-cmake-module <!nocheck>, ros-rolling-rclpy, ros-rolling-rosidl-default-generators <!nocheck>, ros-rolling-rosidl-default-runtime <!nocheck>, ros-rolling-ros-workspace
+Homepage: http://ros.org/wiki/rqt_py_common
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rqt-py-common
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev, ros-rolling-python-qt-binding (>= 0.3.4), ros-rolling-qt-gui, ros-rolling-rclpy, ros-rolling-ros-workspace
+Description: rqt_py_common provides common functionality for rqt plugins written in Python.
+ Despite no plugin is provided, this package is part of the rqt_common_plugins repository to keep refactoring generic functionality from these common plugins into this package as easy as possible. Functionality included in this package should cover generic ROS concepts and should not introduce any special dependencies beside &quot;ros_base&quot;.
